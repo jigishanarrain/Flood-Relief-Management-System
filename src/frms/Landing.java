@@ -15,6 +15,7 @@ public class Landing extends javax.swing.JFrame {
         cool_ppl = new javax.swing.JButton();
         bade_aadmi = new javax.swing.JButton();
         missing_person = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -50,6 +51,13 @@ public class Landing extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setText("Register as NGO");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -63,7 +71,8 @@ public class Landing extends javax.swing.JFrame {
                             .addComponent(bade_aadmi)
                             .addComponent(cool_ppl)
                             .addComponent(need_help)
-                            .addComponent(jLabel2)))
+                            .addComponent(jLabel2)
+                            .addComponent(jButton1)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(19, 19, 19)
                         .addComponent(jLabel1)))
@@ -72,22 +81,21 @@ public class Landing extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(68, 68, 68)
-                        .addComponent(jLabel2)
-                        .addGap(18, 18, 18)
-                        .addComponent(need_help)
-                        .addGap(18, 18, 18)
-                        .addComponent(cool_ppl)
-                        .addGap(18, 18, 18)
-                        .addComponent(bade_aadmi)
-                        .addGap(18, 18, 18)
-                        .addComponent(missing_person)))
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addGap(26, 26, 26)
+                .addComponent(jLabel2)
+                .addGap(18, 18, 18)
+                .addComponent(need_help)
+                .addGap(18, 18, 18)
+                .addComponent(cool_ppl)
+                .addGap(18, 18, 18)
+                .addComponent(bade_aadmi)
+                .addGap(18, 18, 18)
+                .addComponent(missing_person)
+                .addGap(18, 18, 18)
+                .addComponent(jButton1)
+                .addContainerGap(36, Short.MAX_VALUE))
         );
 
         pack();
@@ -115,6 +123,11 @@ public class Landing extends javax.swing.JFrame {
         //govt authority
         Factory.init_type(3);
     }//GEN-LAST:event_bade_aadmiActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        Factory.init_type(5);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
 
     public static void main(String args[]) {
@@ -147,6 +160,7 @@ public class Landing extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bade_aadmi;
     private javax.swing.JButton cool_ppl;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JButton missing_person;

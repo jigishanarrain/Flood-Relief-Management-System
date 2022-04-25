@@ -140,6 +140,7 @@ public class HelpType extends javax.swing.JFrame {
         
         //add code to add the number into database if it hasnt already been entered
         //database stuff
+        
     }//GEN-LAST:event_entermobileActionPerformed
 
     private void evacuate_helpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_evacuate_helpActionPerformed

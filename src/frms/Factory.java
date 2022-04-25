@@ -22,6 +22,10 @@ public class Factory {
                 MissingPers pers = new MissingPers();
                 pers.setVisible(true);
             }
+            case 5: {
+                NGO newNGO = new NGO();
+                newNGO.setVisible(true);
+            }
             default: ;
             
         }
