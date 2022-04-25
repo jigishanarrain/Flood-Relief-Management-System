@@ -1,1 +1,1 @@
-Flood relief management system 
+A repository containing data and code for a flood relief management system implemented in Java and PostreSQL as part of the mini-project componenet for the course Object Oriented Analysis and Design with Java (UE19CS353) at PES University '23. 
